@@ -1,6 +1,7 @@
 
 :root {
     --header-border-color: #ECECEC;
+    --portfolio-samples-border-color: #EEEEEE;
     --primary-text-color: #757575;
     --title-color: #212121;
     --accent-color: #2196F3;
@@ -367,13 +368,15 @@ li .current {
 
 .portfolio-samples .item {
     flex-basis: calc((100% - 60px) / 3);
-    border: 1px solid #EEEEEE;
 }
 
 .sample-description {
     display: flex;
     flex-direction: column;
     padding: 20px 24px;
+    border-left: 1px solid var(--portfolio-samples-border-color);
+    border-right: 1px solid var(--portfolio-samples-border-color);
+    border-bottom: 1px solid var(--portfolio-samples-border-color);
 }
 
 .portfolio-samples h2 {
